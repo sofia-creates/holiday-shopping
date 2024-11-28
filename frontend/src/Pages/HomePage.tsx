@@ -8,10 +8,8 @@ const HomePage = () => {
   // data fetch here
   const getData = async (): Promise<void> => {
     const response = await axios.get(`http://localhost:5021/products`);
-    setProducts(response.data);
-    console.log(response.data);
-    console.log('products are: ', products);
-
+    await setProducts(response.data);
+    //console.log('products are: ', products);
   };
 
   useEffect(() => {
@@ -22,7 +20,7 @@ const HomePage = () => {
     <>
         <h1>HomePage</h1>
         {/* productList */}
-        <ProductList />
+        <ProductList products={products}/>
     </>
   )
 }
