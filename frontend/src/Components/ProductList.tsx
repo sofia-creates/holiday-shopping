@@ -1,13 +1,16 @@
 import { IProduct } from "../Models/IProduct"
+import ProductCard from "./ProductCard"
 
 const ProductList = ({products}: {products: IProduct[]}) => { //ta in products här
   return (
-    <>
+    <div className='productList' >
     {/* mappa ut products här */}
     {products.map((product: IProduct)=>(
-      <div key={product.id}>{product.product_name}</div>
+      <>
+        <ProductCard product={product}/>  
+      </>
     ))}
-    </>
+    </div>
   )
 }
 
