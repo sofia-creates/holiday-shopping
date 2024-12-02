@@ -6,9 +6,8 @@ const ProductList = ({products}: {products: IProduct[]}) => { //ta in products h
     <div className='productList' >
     {/* mappa ut products här */}
     {products.map((product: IProduct)=>(
-      <>
-        <ProductCard product={product}/>  
-      </>
+        <ProductCard product={product} key={product.id}/>  
+    
     ))}
     </div>
   )
