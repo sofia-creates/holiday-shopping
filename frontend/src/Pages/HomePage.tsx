@@ -1,7 +1,10 @@
 import ProductList from "../Components/ProductList"
 import axios from "axios";
 import { useEffect, useState } from "react";
+
 import { IProduct } from "../Models/IProduct";
+import Header from "../Components/UI/Header";
+
 
 const HomePage = () => {
   const [products, setProducts] = useState<IProduct[]>([]);
@@ -18,7 +21,7 @@ const HomePage = () => {
 
   return (
     <>
-        {/* productList */}
+        <Header />
         <ProductList products={products}/>
     </>
   )

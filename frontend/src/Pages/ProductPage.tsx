@@ -4,6 +4,8 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
 import { IProduct } from '../Models/IProduct';
+import imagePath from "../assets/olena-bohovyk-PS6S9cOPvxE-unsplash.jpg"
+
 
 const ProductPage = () => {
   const[product, setProduct] = useState<IProduct | null>(null); //add type here later
@@ -34,6 +36,7 @@ const ProductPage = () => {
     <div className='productContainer'>
       {product ? ( 
         <div>
+          {/* <img src={imagePath} alt={product.product_name} /> */}
           <h1>{product.product_name}</h1>
           <p>{product.description}</p>
           <p>{product.price} kr</p>

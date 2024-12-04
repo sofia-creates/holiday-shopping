@@ -1,6 +1,10 @@
+import imagePath from "../assets/freestocks-PxM8aeJbzvk-unsplash.jpg"
+
 const Header = () => {
   return (
-    <div>Header</div>
+    <div>
+        <img src={imagePath} alt="The perfect christmas" />
+    </div>
   )
 }
 
