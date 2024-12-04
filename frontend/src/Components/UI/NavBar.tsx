@@ -7,6 +7,7 @@ const NavBar = () => {
       <input type="text" className="searchBar" />
       <a href="#">Favorites</a>
       <a href="#">Cart</a>
+      
     </nav>
   )
 }
