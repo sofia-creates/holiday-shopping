@@ -24,7 +24,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
   background-color: rgb(227, 227, 227);
@@ -69,6 +68,23 @@ button:focus-visible {
   }
 }
 /* custom css */
+nav {
+  height: 4em;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em 0 2em;
+  margin-bottom: 3em;
+}
+nav .searchBar {
+  width: 25em;
+  height: 1.5em;
+  border: solid 1px grey;
+  border-radius: 5px;
+}
+
 .productContainer {
   background-color: white;
   padding: 3em;

@@ -18,7 +18,6 @@ const HomePage = () => {
 
   return (
     <>
-        <h1>HomePage</h1>
         {/* productList */}
         <ProductList products={products}/>
     </>
