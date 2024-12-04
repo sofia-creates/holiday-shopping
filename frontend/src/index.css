@@ -13,12 +13,12 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
+  color: inherit;
 }
 
 a:hover {
-  color: #535bf2;
+  cursor: pointer;
 }
 
 body {
@@ -27,6 +27,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: rgb(227, 227, 227);
 }
 
 h1 {
@@ -47,7 +48,7 @@ button {
 }
 
 button:hover {
-  border-color: #646cff;
+  border-color: #0e7c04;
 }
 
 button:focus,
@@ -57,41 +58,34 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #3a3a3a;
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #0e7c04;
   }
   button {
     background-color: #f9f9f9;
   }
 }
 /* custom css */
+.productContainer {
+  background-color: white;
+  padding: 3em;
+}
+
 .productList {
   display: flex;
   flex-wrap: wrap;
 }
 .productList .productCard {
-  width: 20em;
+  width: 19em;
   margin: 2em;
   display: flex;
   flex-direction: column;
   padding: 1.25em;
-  border: solid 2px grey;
-  border-radius: 8px;
   transition-duration: 500ms;
 }
 .productList .productCard .productDescription {
   font-size: small;
-  display: none;
-}
-.productList .productCard .productAvailability {
-  display: none;
-}
-.productList .productCard:hover .productDescription {
-  display: block;
-}
-.productList .productCard:hover .productAvailability {
-  display: block;
 }/*# sourceMappingURL=index.css.map */

@@ -15,11 +15,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
+  color: inherit;
 }
 a:hover {
-  color: #535bf2;
+  cursor: pointer;
 }
 
 body {
@@ -28,6 +28,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+
+  background-color: rgb(227, 227, 227);
 }
 
 h1 {
@@ -47,7 +49,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #0e7c04;
 }
 button:focus,
 button:focus-visible {
@@ -56,11 +58,11 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #3a3a3a;
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #0e7c04;
   }
   button {
     background-color: #f9f9f9;
@@ -69,6 +71,11 @@ button:focus-visible {
 
 
 /* custom css */
+
+.productContainer {
+  background-color: white;
+  padding: 3em;
+}
 
 //product list
 .productList {
@@ -81,7 +88,7 @@ button:focus-visible {
 
 
   .productCard{
-    width: 20em;
+    width: 19em;
     margin: 2em;
 
     display:flex;
@@ -89,27 +96,14 @@ button:focus-visible {
 
     padding: 1.25em;
 
-    border: solid 2px grey;
-    border-radius: 8px;
+    
+  
 
     transition-duration: 500ms;
 
     .productDescription{
       font-size: small;
-      display: none; 
     }
-    .productAvailability{
-      display: none;
-    }
-  }
-
-  .productCard:hover {
-    .productDescription{
-      display: block;
-    }
-
-    .productAvailability{
-      display: block;
-    }
+  
   }
 }
