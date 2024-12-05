@@ -8,8 +8,8 @@ const NavBar = () => {
         <input type="text"  />
         <i className="fa-solid fa-magnifying-glass"></i>
         </div>
-      <a href="#">Favorites</a>
-      <a href="#">Cart</a>
+      <a href="#">Favorites <i className="fa-solid fa-heart"></i></a>
+      <a href="#">Cart <i className="fa-solid fa-cart-shopping"></i></a>
 
     </nav>
   )

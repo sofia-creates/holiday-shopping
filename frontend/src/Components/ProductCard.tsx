@@ -8,8 +8,8 @@ const ProductCard = ({product}: {product: IProduct}) => {
         <div key={product.id} className="productCard productContainer">
             <img src={imagePath} alt={product.product_name} className='cardImg'/>
             <h3>{product.product_name}</h3>
-            <p>{product.price} kr</p>
-
+            
+            <p className='price'>{product.price} kr</p>
             <button>Add to cart</button>
         </div>
     </NavLink>

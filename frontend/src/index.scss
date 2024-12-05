@@ -36,8 +36,10 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 2em;
   line-height: 1.1;
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
 }
 
 button {
@@ -87,16 +89,28 @@ nav {
   padding: 0 2em 0 2em;
   margin-bottom: 3em;
 
+  border-bottom: #0e7c04 solid 8px;
+
   .searchBar {
     height: 1.5em;
     border: solid 1px grey; 
     border-radius: 5px;
+    padding: 0 1em 0 1em;
+
 
     input {
       width: 25em;
       border: none;
     }
+    input:active{
+      border: none;
+    }
   }
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
 }
 
 main {
@@ -106,9 +120,35 @@ main {
 
   header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 0 5em 0 5em; 
+    flex-wrap: wrap;
+
+    img{
+      width: 45%;
+      height: auto;
+    }
+
+    div{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 40%;
+      padding:  0 2em 0 2em;
+    }
   }
 }
+
+button{
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: solid #0d2e00 1.5px;
+}
+button:hover{
+  background-color: #0d2e00;
+  color: white;
+}
+
 
 .outerContainer{
   display: flex;
@@ -122,47 +162,46 @@ main {
 
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   
+  div.productInfo{
+    width: 45%;
+  }
+
   .cardImg {
     width: 100%;
   }
 
   //ProductPage
   .productPageImg {
-    width: 40%;
+    width: 45%;
   }
 }
 
 //product list
 .productList {
-  // display: grid;
-  // grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  // gap: 1.25rem;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 2em;;
 
 
   .productCard{
-    width: 19em;
-    margin: 2em;
+    width: 14em;
+    margin: 1em;
 
     display:flex;
     flex-direction: column;
 
     padding: 1.25em;
 
-    
-  
-
-    transition-duration: 500ms;
-
-    .productDescription{
-      font-size: small;
+    .price {
+      font-size: 3em;
+      font-family: "Berkshire Swash", serif;
+      font-weight: 400;
+      color: #0e7c04;
+      margin: 0em 0 0.2em 0;
     }
   
   }

@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 import { IProduct } from "../Models/IProduct";
 import Header from "../Components/UI/Header";
-
+import Aside from "../Components/Aside";
 
 const HomePage = () => {
   const [products, setProducts] = useState<IProduct[]>([]);
@@ -22,7 +22,10 @@ const HomePage = () => {
   return (
     <>
         <Header />
-        <ProductList products={products}/>
+        <div className='flexRow'>
+          <Aside/>
+          <ProductList products={products}/>
+        </div>
     </>
   )
 }

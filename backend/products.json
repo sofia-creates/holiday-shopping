@@ -1,215 +1,275 @@
 {
     "products": [
-      {
-        "id": 1,
-        "product_name": "Plastic Christmas Tree, Medium",
-        "price": 700,
-        "description": "Medium-sized plastic Christmas tree. Height: 170cm. Christmas spirit without the hassle of pine needles in your carpet!",
-        "available_in_warehouse": 5
-      },
-      {
-        "id": 2,
-        "product_name": "LED Christmas String Lights, 10m",
-        "price": 150,
-        "description": "10-meter string lights with 100 LEDs. Perfect for decorating your tree or home this Christmas.",
-        "available_in_warehouse": 20
-      },
-      {
-        "id": 3,
-        "product_name": "Cozy Christmas Knit Blanket",
-        "price": 300,
-        "description": "Warm and cozy knit blanket with reindeer and snowflake patterns. Perfect for chilly Christmas evenings.",
-        "available_in_warehouse": 10
-      },
-      {
-        "id": 4,
-        "product_name": "Ceramic Christmas Mug, 350ml",
-        "price": 50,
-        "description": "Durable ceramic mug with festive designs. Great for hot chocolate or mulled wine.",
-        "available_in_warehouse": 40
-      },
-      {
-        "id": 5,
-        "product_name": "Wireless Christmas Themed Earbuds",
-        "price": 1200,
-        "description": "Wireless earbuds with festive red-and-white casing. Ideal for Christmas carols.",
-        "available_in_warehouse": 8
-      },
-      {
-        "id": 6,
-        "product_name": "Christmas Tree Skirt",
-        "price": 200,
-        "description": "Elegant tree skirt with snowflake embroidery to complete your tree decoration.",
-        "available_in_warehouse": 15
-      },
-      {
-        "id": 7,
-        "product_name": "Santa Hat, Deluxe Edition",
-        "price": 75,
-        "description": "Soft, plush Santa hat with faux fur trim. One size fits most.",
-        "available_in_warehouse": 50
-      },
-      {
-        "id": 8,
-        "product_name": "Christmas Stocking, Knit",
-        "price": 120,
-        "description": "Traditional knit Christmas stocking with customizable name embroidery.",
-        "available_in_warehouse": 25
-      },
-      {
-        "id": 9,
-        "product_name": "Christmas Scented Candle",
-        "price": 180,
-        "description": "Scented candle with pine, cinnamon, and clove fragrance to bring Christmas spirit into your home.",
-        "available_in_warehouse": 30
-      },
-      {
-        "id": 10,
-        "product_name": "Christmas Wreath, Pine",
-        "price": 300,
-        "description": "Beautiful artificial pine wreath with red berries and pine cones.",
-        "available_in_warehouse": 12
-      },
-      {
-        "id": 11,
-        "product_name": "Festive Table Runner",
-        "price": 180,
-        "description": "Red and green Christmas-themed table runner with holly design.",
-        "available_in_warehouse": 10
-      },
-      {
-        "id": 12,
-        "product_name": "Christmas Cookie Cutter Set",
-        "price": 90,
-        "description": "Set of 10 stainless steel cookie cutters in Christmas shapes like stars, trees, and bells.",
-        "available_in_warehouse": 35
-      },
-      {
-        "id": 13,
-        "product_name": "Snowflake Window Clings",
-        "price": 50,
-        "description": "Reusable snowflake decals to decorate windows for the holiday season.",
-        "available_in_warehouse": 50
-      },
-      {
-        "id": 14,
-        "product_name": "Mini Christmas Village Set",
-        "price": 1000,
-        "description": "Hand-painted ceramic Christmas village set with LED lights.",
-        "available_in_warehouse": 5
-      },
-      {
-        "id": 15,
-        "product_name": "Reindeer Antler Headband",
-        "price": 45,
-        "description": "Fun headband with plush reindeer antlers for festive parties.",
-        "available_in_warehouse": 60
-      },
-      {
-        "id": 16,
-        "product_name": "Christmas Tree Ornament Set",
-        "price": 250,
-        "description": "Box of 24 shatterproof ornaments in red, green, and gold.",
-        "available_in_warehouse": 20
-      },
-      {
-        "id": 17,
-        "product_name": "Christmas Tree Topper, Star",
-        "price": 100,
-        "description": "Elegant golden star tree topper with glitter finish.",
-        "available_in_warehouse": 15
-      },
-      {
-        "id": 18,
-        "product_name": "Christmas Crackers, Set of 6",
-        "price": 150,
-        "description": "Set of 6 Christmas crackers filled with jokes, paper crowns, and small gifts.",
-        "available_in_warehouse": 18
-      },
-      {
-        "id": 19,
-        "product_name": "Santa Claus Figurine, 30cm",
-        "price": 450,
-        "description": "Handcrafted Santa Claus figurine holding a sack of gifts.",
-        "available_in_warehouse": 7
-      },
-      {
-        "id": 20,
-        "product_name": "LED Snowflake Projector",
-        "price": 800,
-        "description": "LED projector that creates a snowfall effect indoors or outdoors.",
-        "available_in_warehouse": 10
-      },
-      {
-        "id": 21,
-        "product_name": "Festive Throw Pillow Cover",
-        "price": 90,
-        "description": "Throw pillow cover with reindeer and mistletoe patterns.",
-        "available_in_warehouse": 25
-      },
-      {
-        "id": 22,
-        "product_name": "Christmas Garland, 2m",
-        "price": 200,
-        "description": "Artificial garland with lights and pinecones for decorating staircases or mantels.",
-        "available_in_warehouse": 12
-      },
-      {
-        "id": 23,
-        "product_name": "Christmas Baking Kit",
-        "price": 300,
-        "description": "Kit with molds, sprinkles, and tools for baking festive treats.",
-        "available_in_warehouse": 20
-      },
-      {
-        "id": 24,
-        "product_name": "Light-Up Christmas Sweater",
-        "price": 700,
-        "description": "Ugly Christmas sweater with LED lights for a fun and festive look.",
-        "available_in_warehouse": 8
-      },
-      {
-        "id": 25,
-        "product_name": "Christmas Tree Pick",
-        "price": 50,
-        "description": "Artificial pine picks with red berries and glitter accents for enhancing your tree.",
-        "available_in_warehouse": 40
-      },
-      {
-        "id": 26,
-        "product_name": "Christmas Gift Wrap Set",
-        "price": 120,
-        "description": "Set of 10 sheets of wrapping paper with matching ribbons and tags.",
-        "available_in_warehouse": 35
-      },
-      {
-        "id": 27,
-        "product_name": "Snowman Door Hanger",
-        "price": 150,
-        "description": "Adorable snowman-shaped door hanger for Christmas cheer.",
-        "available_in_warehouse": 25
-      },
-      {
-        "id": 28,
-        "product_name": "Christmas Tree Scent Spray",
-        "price": 80,
-        "description": "Spray that gives your artificial tree a fresh pine scent.",
-        "available_in_warehouse": 15
-      },
-      {
-        "id": 29,
-        "product_name": "Festive Paper Napkins, Pack of 20",
-        "price": 40,
-        "description": "Christmas-themed paper napkins with holly and snowflake designs.",
-        "available_in_warehouse": 50
-      },
-      {
-        "id": 30,
-        "product_name": "Christmas Door Wreath, LED",
-        "price": 400,
-        "description": "Wreath with built-in LED lights and red bow for door decoration.",
-        "available_in_warehouse": 10
-      }
+        {
+            "id": 1,
+            "product_name": "Plastic Christmas Tree, Medium",
+            "price": 700,
+            "description": "Medium-sized plastic Christmas tree. Height: 170cm. Christmas spirit without the hassle of pine needles in your carpet!",
+            "available_in_warehouse": 5,
+            "category": "Christmas Decorations",
+            "measurement": "170cm height"
+          },
+          {
+            "id": 2,
+            "product_name": "LED Christmas String Lights, 10m",
+            "price": 150,
+            "description": "10-meter string lights with 100 LEDs. Perfect for decorating your tree or home this Christmas.",
+            "available_in_warehouse": 20,
+            "category": "Lighting",
+            "measurement": "10 meters"
+          },
+          {
+            "id": 3,
+            "product_name": "Cozy Christmas Knit Blanket",
+            "price": 300,
+            "description": "Warm and cozy knit blanket with reindeer and snowflake patterns. Perfect for chilly Christmas evenings.",
+            "available_in_warehouse": 10,
+            "category": "Home Decor",
+            "measurement": "150cm x 200cm"
+          },
+          {
+            "id": 4,
+            "product_name": "Ceramic Christmas Mug, 350ml",
+            "price": 50,
+            "description": "Durable ceramic mug with festive designs. Great for hot chocolate or mulled wine.",
+            "available_in_warehouse": 40,
+            "category": "Kitchenware",
+            "measurement": "350ml capacity"
+          },
+          {
+            "id": 5,
+            "product_name": "Wireless Christmas Themed Earbuds",
+            "price": 1200,
+            "description": "Wireless earbuds with festive red-and-white casing. Ideal for Christmas carols.",
+            "available_in_warehouse": 8,
+            "category": "Electronics",
+            "measurement": "Compact size"
+          },
+          {
+            "id": 6,
+            "product_name": "Christmas Tree Skirt",
+            "price": 200,
+            "description": "Elegant tree skirt with snowflake embroidery to complete your tree decoration.",
+            "available_in_warehouse": 15,
+            "category": "Christmas Decorations",
+            "measurement": "90cm diameter"
+          },
+          {
+            "id": 7,
+            "product_name": "Santa Hat, Deluxe Edition",
+            "price": 75,
+            "description": "Soft, plush Santa hat with faux fur trim. One size fits most.",
+            "available_in_warehouse": 50,
+            "category": "Apparel",
+            "measurement": "One size"
+          },
+          {
+            "id": 8,
+            "product_name": "Christmas Stocking, Knit",
+            "price": 120,
+            "description": "Traditional knit Christmas stocking with customizable name embroidery.",
+            "available_in_warehouse": 25,
+            "category": "Christmas Decorations",
+            "measurement": "50cm length"
+          },
+          {
+            "id": 9,
+            "product_name": "Christmas Scented Candle",
+            "price": 180,
+            "description": "Scented candle with pine, cinnamon, and clove fragrance to bring Christmas spirit into your home.",
+            "available_in_warehouse": 30,
+            "category": "Home Fragrance",
+            "measurement": "200g"
+          },
+          {
+            "id": 10,
+            "product_name": "Christmas Wreath, Pine",
+            "price": 300,
+            "description": "Beautiful artificial pine wreath with red berries and pine cones.",
+            "available_in_warehouse": 12,
+            "category": "Christmas Decorations",
+            "measurement": "45cm diameter"
+          },
+          {
+            "id": 11,
+            "product_name": "Festive Table Runner",
+            "price": 180,
+            "description": "Red and green Christmas-themed table runner with holly design.",
+            "available_in_warehouse": 10,
+            "category": "Tableware",
+            "measurement": "180cm x 40cm"
+          },
+          {
+            "id": 12,
+            "product_name": "Christmas Cookie Cutter Set",
+            "price": 90,
+            "description": "Set of 10 stainless steel cookie cutters in Christmas shapes like stars, trees, and bells.",
+            "available_in_warehouse": 35,
+            "category": "Kitchenware",
+            "measurement": "10 pieces"
+          },
+          {
+            "id": 13,
+            "product_name": "Snowflake Window Clings",
+            "price": 50,
+            "description": "Reusable snowflake decals to decorate windows for the holiday season.",
+            "available_in_warehouse": 50,
+            "category": "Home Decor",
+            "measurement": "20 pieces"
+          },
+          {
+            "id": 14,
+            "product_name": "Mini Christmas Village Set",
+            "price": 1000,
+            "description": "Hand-painted ceramic Christmas village set with LED lights.",
+            "available_in_warehouse": 5,
+            "category": "Christmas Decorations",
+            "measurement": "5 buildings"
+          },
+          {
+            "id": 15,
+            "product_name": "Reindeer Antler Headband",
+            "price": 45,
+            "description": "Fun headband with plush reindeer antlers for festive parties.",
+            "available_in_warehouse": 60,
+            "category": "Apparel",
+            "measurement": "One size"
+          },
+          {
+            "id": 16,
+            "product_name": "Christmas Tree Ornament Set",
+            "price": 250,
+            "description": "Box of 24 shatterproof ornaments in red, green, and gold.",
+            "available_in_warehouse": 20,
+            "category": "Christmas Decorations",
+            "measurement": "24 pieces"
+          },
+          {
+            "id": 17,
+            "product_name": "Christmas Tree Topper, Star",
+            "price": 100,
+            "description": "Elegant golden star tree topper with glitter finish.",
+            "available_in_warehouse": 15,
+            "category": "Christmas Decorations",
+            "measurement": "Height: 25 cm"
+          },
+          {
+            "id": 18,
+            "product_name": "Christmas Crackers, Set of 6",
+            "price": 150,
+            "description": "Set of 6 Christmas crackers filled with jokes, paper crowns, and small gifts.",
+            "available_in_warehouse": 18,
+            "category": "Tableware",
+            "measurement": "Cracker length: 25 cm each"
+          },
+          {
+            "id": 19,
+            "product_name": "Santa Claus Figurine, 30cm",
+            "price": 450,
+            "description": "Handcrafted Santa Claus figurine holding a sack of gifts.",
+            "available_in_warehouse": 7,
+            "category": "Christmas Decorations",
+            "measurement": "Height: 30 cm"
+          },
+          {
+            "id": 20,
+            "product_name": "LED Snowflake Projector",
+            "price": 800,
+            "description": "LED projector that creates a snowfall effect indoors or outdoors.",
+            "available_in_warehouse": 10,
+            "category": "Lighting",
+            "measurement": "Projection range: 10m"
+          },
+          {
+            "id": 21,
+            "product_name": "Festive Throw Pillow Cover",
+            "price": 90,
+            "description": "Throw pillow cover with reindeer and mistletoe patterns.",
+            "available_in_warehouse": 25,
+            "category": "Home Decor",
+            "measurement": "Cover size: 45x45 cm"
+          },
+          {
+            "id": 22,
+            "product_name": "Christmas Garland, 2m",
+            "price": 200,
+            "description": "Artificial garland with lights and pinecones for decorating staircases or mantels.",
+            "available_in_warehouse": 12,
+            "category": "Christmas Decorations",
+            "measurement": "Length: 2m"
+          },
+          {
+            "id": 23,
+            "product_name": "Christmas Baking Kit",
+            "price": 300,
+            "description": "Kit with molds, sprinkles, and tools for baking festive treats.",
+            "available_in_warehouse": 20,
+            "category": "Kitchenware",
+            "measurement": "Box size: 35x25x10 cm"
+          },
+          {
+            "id": 24,
+            "product_name": "Light-Up Christmas Sweater",
+            "price": 700,
+            "description": "Ugly Christmas sweater with LED lights for a fun and festive look.",
+            "available_in_warehouse": 8,
+            "category": "Apparel",
+            "measurement": "Available sizes: S, M, L, XL"
+          },
+          {
+            "id": 25,
+            "product_name": "Christmas Tree Pick",
+            "price": 50,
+            "description": "Artificial pine picks with red berries and glitter accents for enhancing your tree.",
+            "available_in_warehouse": 40,
+            "category": "Christmas Decorations",
+            "measurement": "Length: 30 cm each"
+          },
+          {
+            "id": 26,
+            "product_name": "Christmas Gift Wrap Set",
+            "price": 120,
+            "description": "Set of 10 sheets of wrapping paper with matching ribbons and tags.",
+            "available_in_warehouse": 35,
+            "category": "Home Decor",
+            "measurement": "Sheet size: 70x50 cm"
+          },
+          {
+            "id": 27,
+            "product_name": "Snowman Door Hanger",
+            "price": 150,
+            "description": "Adorable snowman-shaped door hanger for Christmas cheer.",
+            "available_in_warehouse": 25,
+            "category": "Christmas Decorations",
+            "measurement": "Height: 40 cm"
+          },
+          {
+            "id": 28,
+            "product_name": "Christmas Tree Scent Spray",
+            "price": 80,
+            "description": "Spray that gives your artificial tree a fresh pine scent.",
+            "available_in_warehouse": 15,
+            "category": "Home Fragrance",
+            "measurement": "Volume: 150 ml"
+          },
+          {
+            "id": 29,
+            "product_name": "Festive Paper Napkins, Pack of 20",
+            "price": 40,
+            "description": "Christmas-themed paper napkins with holly and snowflake designs.",
+            "available_in_warehouse": 50,
+            "category": "Tableware",
+            "measurement": "Napkin size: 33x33 cm"
+          },
+          {
+            "id": 30,
+            "product_name": "Christmas Door Wreath, LED",
+            "price": 400,
+            "description": "Wreath with built-in LED lights and red bow for door decoration.",
+            "available_in_warehouse": 10,
+            "category": "Christmas Decorations",
+            "measurement": "Diameter: 50 cm"
+          }
     ]
   }
   

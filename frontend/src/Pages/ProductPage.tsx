@@ -37,7 +37,7 @@ const ProductPage = () => {
       {product ? ( 
         <div className='productContainer'>
           <img src={imagePath} alt={product.product_name} className='productPageImg' />
-          <div>
+          <div className='productInfo'>
             <h1>{product.product_name}</h1>
             <p>{product.description}</p>
             <p>{product.price} kr</p>
