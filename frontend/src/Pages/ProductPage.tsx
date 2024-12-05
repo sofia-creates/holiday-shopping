@@ -33,14 +33,17 @@ const ProductPage = () => {
   },[product])
 
   return (
-    <div className='productContainer'>
+    <div className='outerContainer'>
       {product ? ( 
-        <div>
-          {/* <img src={imagePath} alt={product.product_name} /> */}
-          <h1>{product.product_name}</h1>
-          <p>{product.description}</p>
-          <p>{product.price} kr</p>
-          <p>Available in stock: {product.available_in_warehouse}</p>
+        <div className='productContainer'>
+          <img src={imagePath} alt={product.product_name} className='productPageImg' />
+          <div>
+            <h1>{product.product_name}</h1>
+            <p>{product.description}</p>
+            <p>{product.price} kr</p>
+            <p>Available in stock: {product.available_in_warehouse}</p>
+            <button>Add to cart</button>
+          </div>
         </div>
       ) : (
         <p>Loading product... </p>

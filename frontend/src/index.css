@@ -11,6 +11,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  width: 100vw;
+}
+
 a {
   font-weight: 500;
   text-decoration: inherit;
@@ -79,20 +83,51 @@ nav {
   margin-bottom: 3em;
 }
 nav .searchBar {
-  width: 25em;
   height: 1.5em;
   border: solid 1px grey;
   border-radius: 5px;
 }
+nav .searchBar input {
+  width: 25em;
+  border: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main header {
+  display: flex;
+  justify-content: center;
+}
+
+.outerContainer {
+  display: flex;
+  justify-content: center;
+}
 
 .productContainer {
   background-color: white;
+  width: 70%;
   padding: 3em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.productContainer .cardImg {
+  width: 100%;
+}
+.productContainer .productPageImg {
+  width: 40%;
 }
 
 .productList {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .productList .productCard {
   width: 19em;
@@ -104,4 +139,11 @@ nav .searchBar {
 }
 .productList .productCard .productDescription {
   font-size: small;
+}
+
+footer {
+  height: 20vh;
+  background-color: #0d2e00;
+  position: fixed;
+  bottom: 0;
 }/*# sourceMappingURL=index.css.map */

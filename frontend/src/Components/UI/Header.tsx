@@ -1,10 +1,10 @@
-import imagePath from "../assets/freestocks-PxM8aeJbzvk-unsplash.jpg"
+import imagePath from "../../assets/freestocks-PxM8aeJbzvk-unsplash.jpg";
 
 const Header = () => {
   return (
-    <div>
+    <header>
         <img src={imagePath} alt="The perfect christmas" />
-    </div>
+    </header>
   )
 }
 
