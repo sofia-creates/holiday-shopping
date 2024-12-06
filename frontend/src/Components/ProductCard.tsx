@@ -1,6 +1,6 @@
 import { IProduct } from "../Models/IProduct"
 import { NavLink } from "react-router-dom";
-import imagePath from "../assets/olena-bohovyk-PS6S9cOPvxE-unsplash.jpg"
+import imagePath from "../assets/olena-bohovyk-PS6S9cOPvxE-unsplash_2.jpg"
 
 const ProductCard = ({product}: {product: IProduct}) => {
   return (

@@ -5,7 +5,7 @@ const Header = () => {
     <header>
         <img src={imagePath} alt="The perfect christmas" />
         <div>
-            <h1>Have a holly, jolly christmas</h1>
+            <h1>Have a holly, jolly christmas!</h1>
             <p>We've got you covered with everything you need for the holiday season!
             </p>
             <p>
