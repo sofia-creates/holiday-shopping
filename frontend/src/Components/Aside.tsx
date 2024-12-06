@@ -1,10 +1,25 @@
 const Aside = () => {
+    let categories = ['Christmas Decorations', 'Ligthing', 'Home Decor', 'Kitchenware', 'Apparel', 'Electronics', 'Tableware', 'Home Fragrance'];
+
   return (
     <aside>
         <h2>Christmas products</h2>
         <h3>Filter</h3>
 
         <h4>Categories</h4>
+
+        {(categories.map((category:string)=>{
+            <p>hej</p>
+        })) }
+
+       {categories ? ( categories.map((category: string)=>(
+            <div>
+                <input type="checkbox" name=""  value={category.replace(/\s+/g, '_').toLowerCase()} id="" />
+                <label htmlFor="christmasDecor">{category}</label>
+            </div>)
+            ) : (
+        <p>No categories found.</p>
+       )}
 
         <div>
             <input type="checkbox" name=""  value="christmasDecor" id="" />

@@ -11,8 +11,7 @@ const NavBar = () => {
       <div className="searchBar">
         <input type="text"  />
         <i className="fa-solid fa-magnifying-glass"></i>
-        </div>
-
+      </div>
       
       <a href="#" className="navItem">
         <i className="fa-solid fa-user"></i>

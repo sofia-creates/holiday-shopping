@@ -2,9 +2,6 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -151,8 +148,9 @@ button:hover {
 }
 
 aside {
+  width: 90%;
   margin-top: 2em;
-  padding-left: 2em;
+  padding-left: 3em;
 }
 
 .outerContainer {
@@ -204,5 +202,6 @@ aside {
 footer {
   height: 20vh;
   width: 100vw;
-  background-color: #0d2e00;
+  background: rgb(14, 124, 4);
+  background: radial-gradient(circle, rgb(14, 124, 4) 0%, rgb(13, 46, 0) 100%);
 }/*# sourceMappingURL=index.css.map */
