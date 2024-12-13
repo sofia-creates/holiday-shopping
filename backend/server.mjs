@@ -12,12 +12,6 @@ const app = express();
 //activate middleware
 app.use(cors());
 
-
-//setup routing endpoints
-// app.get('/', (req,res)=>{
-//     res.send('<h1>Node is running!!<h1>')
-// }) //first argument is which url to listen to
-
 //endpoint for get
 app.get('/', async(req, res)=> {
     // res.status(200).json({success:true, message: 'It is working'})

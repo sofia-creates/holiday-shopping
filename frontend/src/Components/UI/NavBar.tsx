@@ -15,17 +15,17 @@ const NavBar = () => {
       
       <a href="#" className="navItem">
         <i className="fa-solid fa-user"></i>
-        <p>Login</p> 
+        <p className="navText">Login</p> 
       </a>
 
       <a href="#" className="navItem">
         <i className="fa-solid fa-heart"></i>
-        <p>Favorites</p>
+        <p className="navText">Favorites</p>
       </a>
 
       <a href="#" className="navItem">
         <i className="fa-solid fa-cart-shopping"></i>
-        <p>Cart</p> 
+        <p className="navText">Cart</p> 
       </a>
 
     </nav>

@@ -15,10 +15,6 @@ const Aside = () => {
         )
         )}
 
-        <h4>Price</h4>
-        <input type="checkbox" name="" id="" />
-        <label htmlFor="">Hella expensive</label>
-
         <button>Apply filters</button>
 
 

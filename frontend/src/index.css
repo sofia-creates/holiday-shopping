@@ -8,10 +8,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-#root {
-  width: 100vw;
-}
-
 a {
   font-weight: 500;
   text-decoration: inherit;
@@ -125,8 +121,7 @@ main {
 main header {
   display: flex;
   justify-content: center;
-  padding: 0 5em 0 5em;
-  flex-wrap: wrap;
+  padding: 0 5em 2em 5em;
 }
 main header img {
   width: 45%;
@@ -153,9 +148,10 @@ button:hover {
 }
 
 aside {
-  width: 90%;
+  width: 100%;
   margin-top: 2em;
-  padding-left: 3em;
+  padding: 0 3em 0 3em;
+  color: black;
 }
 
 .outerContainer {
@@ -186,7 +182,6 @@ aside {
 .productList {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   margin-top: 2em;
 }
 .productList .productCard {
@@ -206,7 +201,45 @@ aside {
 
 footer {
   height: 20vh;
-  width: 100vw;
-  background: rgb(14, 124, 4);
   background: radial-gradient(circle, rgb(14, 124, 4) 0%, rgb(13, 46, 0) 100%);
+  margin-top: 3em;
+}
+
+/* Tablets and smaller (1024px and below) */
+@media (max-width: 1024px) {
+  main header {
+    flex-wrap: wrap;
+  }
+  main header img {
+    width: 100%;
+  }
+  main header div {
+    width: 100%;
+    padding: 0 3em 3em 3em;
+  }
+}
+/* Phones and smaller (768px and below) */
+@media (max-width: 768px) {
+  nav .searchBar {
+    width: 10%;
+  }
+  nav .searchBar input {
+    width: 10%;
+  }
+  nav .navText {
+    display: none;
+  }
+  main header {
+    flex-wrap: wrap;
+    padding: 0 1em 0.5em 1em;
+  }
+  main header h1 {
+    font-size: 2em;
+  }
+  main aside {
+    display: none;
+  }
+  main .productList {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=index.css.map */
