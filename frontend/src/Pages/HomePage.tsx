@@ -12,7 +12,6 @@ const HomePage = () => {
   const getData = async (): Promise<void> => {
     const response = await axios.get(`http://localhost:5021/products`);
     await setProducts(response.data);
-    //console.log('products are: ', products);
   };
 
   useEffect(() => {

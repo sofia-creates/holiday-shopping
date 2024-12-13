@@ -8,13 +8,13 @@ import imagePath from "../assets/olena-bohovyk-PS6S9cOPvxE-unsplash.jpg"
 
 
 const ProductPage = () => {
-  const[product, setProduct] = useState<IProduct | null>(null); //add type here later
+  const[product, setProduct] = useState<IProduct | null>(null); 
   const {id} = useParams();
 
   useEffect(() => {
     const getProduct = async () => {
       console.log('getProduct is run')
-      //bygga ett url
+      //build an url
       let url=`http://localhost:5021/products/${id}`;
       console.log('url is: ', url)
       const result = await axios.get(url);
