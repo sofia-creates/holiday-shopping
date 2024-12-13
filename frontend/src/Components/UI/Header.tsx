@@ -7,8 +7,6 @@ const Header = () => {
         <div>
             <h1>Have a holly, jolly christmas!</h1>
             <p>We've got you covered with everything you need for the holiday season!
-            </p>
-            <p>
             Looking for the perfect christmas tree? Holiday mugs for some hot chocolate? We've got it, and more! Check out our products, now at even better holiday prices.
             </p>
         </div>
